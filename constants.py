@@ -15,6 +15,14 @@ AI_ICON_FILE_PATH = "./images/ai_icon.jpg"
 ERROR_ICON = ":material/error:"
 CHAT_INPUT_HELPER_TEXT = "こちらからお探しの商品の特徴や名前を入力してください。"
 SPINNER_TEXT = "レコメンドする商品の検討中..."
+WARNING_ICON = ":material/warning:"
+STOCK_WARNING_TEXT = "ご好評につき、在庫数が残りわずかです。購入をご希望の場合、お早めにご注文をおすすめいたします。"
+STOCK_ERROR_TEXT = "申し訳ございませんが、本商品は在庫切れとなっております。入荷までもうしばらくお待ちください。"
+STOCK_STATUS = {
+    "in_stock": "あり",
+    "out_of_stock": "なし",
+    "limited": "残りわずか"
+}
 
 
 # ==========================================
